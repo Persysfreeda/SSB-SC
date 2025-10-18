@@ -52,18 +52,52 @@ Model Waveform
 <img width="706" height="167" alt="image" src="https://github.com/user-attachments/assets/bff0d8fd-d679-444e-af37-0b34585853c1" />
 
 Program
+```
+ac=18.3; 
+Am=9.3; 
+fc=4100;
+fm=410;
+fs=25000; 
+t=0:1/fs:2/fm; 
+wc=2*3.14*fc;
+wm=2*3.14*fm;
+e1=(Am*sin(wm*t));
+subplot(4,1,1);
+plot(t,e1); 
+xlabel("Time(s)");
+ylabel("Amplitude");
+title("Message Signal m(t)");
+e2=(ac*sin(wc*t)); 
+subplot(4,1,2); 
+plot(t,e2);
+xlabel("Time(s)");
+ylabel("Amplitude");
+title("Carrier Signal c(t)");
+sbsc1=(Am/2.*cos(wc*t-wm*t))-(Am/2.*cos(wc*t+wm*t));
+sbsc2=(Am/2.*cos(wc*t-wm*t))+(Am/2.*cos(wc*t+wm*t)); 
+e3=(sbsc2)+(sbsc1); 
+subplot(4,1,3);
+plot(t,e3);
+xlabel("Time(s)");
+ylabel("Amplitude");
+title("SSB-SC Modulated Signal (LSB)");
+e4=(sbsc2)-(sbsc1); 
+subplot(4,1,4); 
+plot(t,e4);
+xlabel("Time(s)");
+ylabel("Amplitude");
+title("SSB-SC Modulated Signal (USB)");
+xgrid;
+```
 
 OUTPUT WAVEFORM
+<img width="1716" height="905" alt="image" src="https://github.com/user-attachments/assets/bb1bf3b0-0621-4cd4-bb80-675418cc6161" />
 
 TABULATION
 
+<img width="1252" height="957" alt="image" src="https://github.com/user-attachments/assets/67ee65ca-ca67-4aa8-b8f6-d1944fefc58b" />
 
-
-
-
-
-
-
+<img width="687" height="956" alt="image" src="https://github.com/user-attachments/assets/8b3a6805-4b5d-41ed-ac05-50085d5b1b1c" />
 
 RESULT:
 
