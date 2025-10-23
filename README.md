@@ -91,17 +91,44 @@ xgrid;
 ```
 
 OUTPUT WAVEFORM
+
+
+
+
+
+
 <img width="1716" height="905" alt="image" src="https://github.com/user-attachments/assets/bb1bf3b0-0621-4cd4-bb80-675418cc6161" />
+
+
+
+
 
 TABULATION
 
+
+
+
+
+
 <img width="1252" height="957" alt="image" src="https://github.com/user-attachments/assets/67ee65ca-ca67-4aa8-b8f6-d1944fefc58b" />
+
+
+
+
+
+
+
+
 
 <img width="687" height="956" alt="image" src="https://github.com/user-attachments/assets/8b3a6805-4b5d-41ed-ac05-50085d5b1b1c" />
 
 RESULT:
 
-Thus, the SSB-SC-AM Modulation and Demodulation is experimentally done and the output is verified.
+
+
+
+
+Thus, the SSB-SC-AM Modulation and Demodulation is experimentally done and the output is verified./>
 
 
 
