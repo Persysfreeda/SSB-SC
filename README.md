@@ -127,10 +127,7 @@ RESULT:
 
 
 
-
-Thus, the SSB-SC-AM Modulation and Demodulation is experimentally done and the output is verified./>
-
-
+<img width="1788" height="733" alt="image" src="https://github.com/user-attachments/assets/4cb245a8-e93a-48b3-90a9-161a16b314d2" />
 
 
 
